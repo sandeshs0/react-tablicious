@@ -32,8 +32,11 @@ export default function App() {
 }
 ```
 
-### Features:
+## Features:
 - Search Bar
 - Sortable Columns
 - Pagination Support
 - Easy Integration with TailwindCSS
+
+## 📜 License
+This project is licensed under the MIT License.

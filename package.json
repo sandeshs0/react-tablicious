@@ -34,5 +34,17 @@
   "author": {
     "name": "Sandesh Sapkota",
     "email": "hellosandesh0@gmail.com"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandeshs0/react-tablicious"
+  },
+  "keywords": [
+    "Sandesh Sapkota",
+    "react table",
+    "react table component",
+    "react table pagination",
+    "react table sorting"
+  ],
+  "license": "MIT"
 }
