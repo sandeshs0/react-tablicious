@@ -1,7 +1,7 @@
 {
   "name": "react-tablicious",
   "description": "A simple react component to display data in table. Comes with sorting, searching and pagination.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "exports": {
