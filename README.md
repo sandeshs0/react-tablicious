@@ -9,11 +9,12 @@ Install the package using npm:
 
 ```bash
 npm install react-tablicious
+```
 
 ## 🚀 Usage:
 Import and use the Tablicious Component:
 
-'''
+```
 import { CustomTable } from "react-tablicious";
 
 const columns = [
@@ -29,7 +30,7 @@ const data = [
 export default function App() {
   return <CustomTable data={data} columns={columns} />;
 }
-'''
+```
 
 ### Features:
 - Search Bar
