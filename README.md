@@ -30,9 +30,17 @@ const data = [
 ];
 
 export default function App() {
-  return <Tablicious data={data} columns={columns} />;
+  return <Tablicious data={data} columns={columns} pageSize={10} />;
 }
 ```
+
+## 📜 Props
+
+| Prop       | Type     | Required | Description                                       |
+| ---------- | -------- | -------- | ------------------------------------------------- |
+| `data`     | `Array`  | ✅       | Data to display in the table.                     |
+| `columns`  | `Array`  | ✅       | Column definitions (e.g., `field`, `headerName`). |
+| `pageSize` | `Number` | ❌       | Number of rows per page (default: `5`).           |
 
 ## Features:
 
