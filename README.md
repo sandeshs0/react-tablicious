@@ -3,6 +3,7 @@
 React-Tablicious is a customizable, searchable, and sortable table component for React, built with TailwindCSS.
 
 ## 📦 Installation
+
 ss
 
 Install the package using npm:
@@ -12,10 +13,11 @@ npm install react-tablicious
 ```
 
 ## 🚀 Usage:
+
 Import and use the Tablicious Component:
 
 ```
-import { CustomTable } from "react-tablicious";
+import { Tablicious } from "react-tablicious";
 
 const columns = [
   { field: "name", headerName: "Name" },
@@ -28,15 +30,17 @@ const data = [
 ];
 
 export default function App() {
-  return <CustomTable data={data} columns={columns} />;
+  return <Tablicious data={data} columns={columns} />;
 }
 ```
 
 ## Features:
+
 - Search Bar
 - Sortable Columns
 - Pagination Support
 - Easy Integration with TailwindCSS
 
 ## 📜 License
+
 This project is licensed under the MIT License.
